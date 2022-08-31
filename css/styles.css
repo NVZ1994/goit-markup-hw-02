@@ -10,6 +10,7 @@ body {
     color: var(--primary-text-color);
 }   
 .logo {
+    
     font-family: 'Raleway', sans-serif;
     color: var(--title-text-color);
 }
