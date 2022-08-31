@@ -15,6 +15,9 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--primary-white-color);
 }
+a {
+  text-decoration: none;
+  font-style:normal}
 /* лого */
 .logo {
   font-family: "Raleway", sans-serif;
