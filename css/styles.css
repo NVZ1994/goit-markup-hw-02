@@ -72,7 +72,6 @@ button:focus {
 .hero {
     background: #2F303A;
     color: var(--primary-white-color);
-    letter-spacing: 0.06em;
 }
 .hero-title {
     font-weight: 900;
@@ -80,8 +79,8 @@ button:focus {
     line-height: 1.36;
     color: var(--primary-white-color);
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 .hero > button {
     font-weight: 700;
@@ -114,12 +113,14 @@ button:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
+    text-align: center;
 }
 /* должность */
 .job {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875;
+    text-align: center;
 }
 /* подписи к фото на портфолио */
 
@@ -129,5 +130,18 @@ button:focus {
     font-size: 16px;
     line-height: 1.875;
 }
-
+/* портфолио названия картинок */
+.caption {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--primary-text-color);
+}
 
