@@ -8,12 +8,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: var(--primary-white-color)
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
+    background-color: var(--primary-white-color);
 }   
 /* лого */
 .logo {
@@ -36,7 +36,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color:var(--title-text-color);
+    color: var(--title-text-color);
     letter-spacing: 0.02em;
 }
 .site-nav-list .link:hover,
@@ -109,7 +109,7 @@ button:focus {
 }
 /* имена членов команды */
 .members-list .title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
