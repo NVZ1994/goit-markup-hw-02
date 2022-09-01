@@ -3,21 +3,23 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
+  --bacground-gray-color: #2f303a;
 }
+
 /* общее на всем доке */
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
   letter-spacing: 0.03em;
   background-color: var(--primary-white-color);
 }
+
 a {
   text-decoration: none;
-  font-style:normal}
+  font-style: normal
+}
+
 /* лого */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -26,38 +28,48 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .logo:hover,
 .logo:focus {
   color: var(--accent-text-color);
 }
+
 /* списки */
 ul {
   list-style: none;
 }
+
 /* навигация */
-.site-nav-list .link {
+.site-nav-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
   letter-spacing: 0.02em;
 }
-.site-nav-list .link:hover,
-.site-nav-list .link:focus {
+
+.site-nav-list a:hover,
+.site-nav-list a:focus {
   color: var(--accent-text-color);
 }
-.auth-nav-list {
+.current {
+  color: var(--accent-text-color);
+}
+
+.auth-nav-list a{
+  color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .auth-nav-list a:hover,
 .auth-nav-list a:focus {
   color: var(--accent-text-color);
 }
+
 /* кнопки (портфолио) */
 button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -66,16 +78,19 @@ button {
   background: var(--primary-white-color);
   color: var(--title-text-color);
 }
+
 button:hover,
 button:focus {
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
 }
+
 /* герой и кнопка в нем*/
 .hero {
-  background: #2f303a;
+  background: var(--bacground-gray-color);
   color: var(--primary-white-color);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -85,7 +100,8 @@ button:focus {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-.hero > button {
+
+.hero>button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -94,6 +110,7 @@ button:focus {
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
 }
+
 /* все h2 */
 .section-title {
   font-weight: 700;
@@ -102,14 +119,15 @@ button:focus {
   text-align: center;
   color: var(--title-text-color);
 }
+
 /* верхние h3 */
 .feature-list .title {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 /* имена членов команды */
 .members-list .title {
   color: var(--title-text-color);
@@ -118,20 +136,21 @@ button:focus {
   line-height: 1.1875;
   text-align: center;
 }
+
 /* должность */
 .job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;
 }
+
 /* подписи к фото на портфолио */
 .section-list {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
 }
+
 /* портфолио названия картинок */
 .caption {
   color: var(--title-text-color);
@@ -140,9 +159,9 @@ button:focus {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 /* подпись под картинками в портфолио */
 .descr {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   color: var(--primary-text-color);
