@@ -18,7 +18,7 @@ body {
 a {
   color: var(--title-text-color);
   text-decoration: none;
-  font-style: normal
+  font-style: normal;
 }
 
 /* лого */
@@ -29,13 +29,13 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo::after{
-    position: absolute;
-    left: 8px;
-    content: 'Web';
-    color: var(--accent-text-color);
-    height: 25px;
-    overflow: hidden;
+.logo::after {
+  position: absolute;
+  left: 8px;
+  content: "Web";
+  color: var(--accent-text-color);
+  height: 25px;
+  overflow: hidden;
 }
 
 .logo:hover,
@@ -64,7 +64,7 @@ ul {
   color: var(--accent-text-color);
 }
 
-.auth-nav-list a{
+.auth-nav-list a {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -110,7 +110,7 @@ button:focus {
   letter-spacing: 0.06em;
 }
 
-.hero>button {
+.hero > button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
