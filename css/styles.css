@@ -28,10 +28,18 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
+.logo::after{
+    position: absolute;
+    left: 8px;
+    content: 'Web';
+    color: var(--accent-text-color);
+    height: 25px;
+    overflow: hidden;
+}
 
 .logo:hover,
 .logo:focus {
-  color: var(--accent-text-color);
+  color: var(--title-text-color);
 }
 
 /* списки */
