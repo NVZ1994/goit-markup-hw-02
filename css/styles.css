@@ -29,20 +29,9 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo::after {
-  position: absolute;
-  left: 8px;
-  content: "Web";
+span {
   color: var(--accent-text-color);
-  height: 25px;
-  overflow: hidden;
 }
-
-.logo:hover,
-.logo:focus {
-  color: var(--title-text-color);
-}
-
 /* списки */
 ul {
   list-style: none;
@@ -131,6 +120,7 @@ button:focus {
 
 /* верхние h3 */
 .feature-list .title {
+  font-size: 14px;
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
@@ -174,4 +164,10 @@ button:focus {
   font-size: 16px;
   line-height: 1.875;
   color: var(--primary-text-color);
+}
+footer {
+  background-color: var(--bacground-gray-color);
+}
+footer .logo {
+  color: var(--primary-white-color);
 }
