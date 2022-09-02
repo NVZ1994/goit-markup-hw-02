@@ -4,6 +4,7 @@
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
   --bacground-gray-color: #2f303a;
+  --address-color: rgba(255, 255, 255, 0.6);
 }
 
 /* общее на всем доке */
@@ -28,6 +29,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 span {
   color: var(--accent-text-color);
@@ -53,7 +55,7 @@ ul {
   color: var(--accent-text-color);
 }
 
-.auth-nav-list a {
+.auth-nav-list {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -165,9 +167,20 @@ button:focus {
   line-height: 1.875;
   color: var(--primary-text-color);
 }
+/* footer style */
 footer {
   background-color: var(--bacground-gray-color);
 }
 footer .logo {
+  color: var(--primary-white-color);
+}
+.adr-list a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--address-color);
+}
+footer .fact {
   color: var(--primary-white-color);
 }
